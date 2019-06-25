@@ -1,2 +1,5 @@
 env
 __pycache__
+elmo_module
+uni_encoder
+enwiki_20180420_100d.txt

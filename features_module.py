@@ -37,11 +37,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-# nltk.download('wordnet')
-# nltk.download('genesis')
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('genesis')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 tokenizer = RegexpTokenizer(r'\w+') #will remove punctuations
 lemmatizer = WordNetLemmatizer()
