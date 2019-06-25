@@ -1,0 +1,6 @@
+_category,_id,_fileID,__text
+BEST,answer235,BULB_ONLY_EXPLAIN_WHY4_ANS1,Terminals 1 and 4 are connected
+GOOD,answer236,BULB_ONLY_EXPLAIN_WHY4_ANS2,Terminals 1 and 4 are not separated by the gap
+GOOD,answer239,BULB_ONLY_EXPLAIN_WHY4_ANS2a,There is no gap between terminals 1 and 4
+GOOD,answer238,BULB_ONLY_EXPLAIN_WHY4_ANS3,Terminals 1 and 4 are connected and in the same electrical state
+MINIMAL,answer238.NEW,NONE,Terminals 1 and 4 are in the same electrical state

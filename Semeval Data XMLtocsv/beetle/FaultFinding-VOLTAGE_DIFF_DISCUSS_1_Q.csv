@@ -1,0 +1,5 @@
+_category,_id,_fileID,__text
+BEST,answer186,VOLTAGE_DIFF_DISCUSS_1_Q_ANS1,the terminals are connected
+MINIMAL,answer187,VOLTAGE_DIFF_DISCUSS_1_Q_ANS2,the terminals are not separated by a gap
+MINIMAL,answer188,VOLTAGE_DIFF_DISCUSS_1_Q_ANS2A,there is no gap between the terminals
+MINIMAL,answer188.1,VOLTAGE_DIFF_DISCUSS_1_Q_ANS3,The terminals are in the same state.

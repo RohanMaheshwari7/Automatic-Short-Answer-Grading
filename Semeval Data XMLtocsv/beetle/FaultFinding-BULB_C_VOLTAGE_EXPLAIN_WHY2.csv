@@ -1,0 +1,6 @@
+_category,_id,_fileID,__text
+BEST,answer208,BULB_C_VOLTAGE_EXPLAIN_WHY2_ANS1,Terminal 2 and the positive terminal are separated by the gap
+BEST,answer209,BULB_C_VOLTAGE_EXPLAIN_WHY2_ANS2,Terminal 2 and the positive terminal are not connected
+MINIMAL,answer210,BULB_C_VOLTAGE_EXPLAIN_WHY2_ANS3,terminal 2 is connected to the negative battery terminal
+MINIMAL,answer211,BULB_C_VOLTAGE_EXPLAIN_WHY2_ANS4,terminal 2 is not separated from the negative battery terminal
+MINIMAL,answer211.NEW,NONE,Terminal 2 and the positive battery terminal are in different electrical states

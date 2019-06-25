@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+<link href='../static/css/home.css' rel='stylesheet'>
+</head>
+<body>
+<h1 class='title'>AUTOMATIC SHORT ANSWER GRADING</h1>
+<div class='left'>
+<form action='/' method='post'>
+<div class='inp-text'>
+<input id='inp-q' type='text' name='question' value='{{data.question}}' placeholder='Enter the question'>
+</div>
+<div class='inp-text'>
+<input id='inp-r' type='text' name='refans' value='{{data.refans}}' placeholder='Enter the reference answer'>
+</div>
+<div class='stud-ans'>
+<textarea id='inp-s' name="studans" rows="8"  placeholder="Enter student answer(s)">{{data.studans}}</textarea>
+</div>
+<div class='submit'>
+<input type='submit'>
+</div>
+</form>
+<div class='load'>
+<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+</div>
+</div>
+<div class='right'>
+<div class='r-en'>
+<p class='r-t'>Question</p>
+<p class='r-i' id='rq'>{{data.question}}</p>
+</div>
+<div class='r-en'>
+<p class='r-t'>Reference answer</p>
+<p class='r-i' id='rr'>{{data.refans}}</p>
+</div>
+<div class='r-en'>
+<p class='r-t'>Student Answer</p>
+<p class='r-i' id='rs'>{{data.studans}}</p>
+</div>
+<p class='result' id="pr" style="display:{{data.display}}">Your answer is <span id='res' class='{{data.scoreclass}}'>{{data.result}}</span></p>
+<p class='result' id="ps" style="display:{{data.display}}">Your score is {{data.score}}</p>
+
+</div>
+<script src='../static/js/home.js' type='text/javascript'></script>
+</body>
+</html>

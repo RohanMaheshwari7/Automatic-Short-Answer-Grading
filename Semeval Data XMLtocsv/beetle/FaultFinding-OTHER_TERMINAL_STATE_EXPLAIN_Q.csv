@@ -1,0 +1,5 @@
+_category,_id,_fileID,__text
+BEST,answer137,OTHER_TERMINAL_STATE_EXPLAIN_Q_ANS1,"Terminals 4, 5 and 6 are not connected to the negative battery terminal"
+GOOD,answer138,OTHER_TERMINAL_STATE_EXPLAIN_Q_ANS2,"Terminals 4, 5 and 6 are separated from the negative battery terminal by a gap"
+MINIMAL,answer139,OTHER_TERMINAL_STATE_EXPLAIN_Q_ANS3,"Terminals 4, 5 and 6 are connected to the positive battery terminal"
+MINIMAL,answer140,OTHER_TERMINAL_STATE_EXPLAIN_Q_ANS4,"Terminals 4, 5 and 6 are not separated from the positive battery terminal by a gap"

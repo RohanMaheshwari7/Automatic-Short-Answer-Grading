@@ -1,0 +1,15 @@
+_category,_id,_fileID,__text
+BEST,answer248,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS1,Measuring voltage indicates the place where the electrical state changes due to a damaged bulb.
+BEST,answer249,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS1B,Measuring voltage indicates the place where the electrical state changes due to a gap.
+GOOD,answer250,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS3,Measuring voltage indicates whether two terminals are connected to each other.
+GOOD,answer251,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS3B,Measuring voltage indicates whether two terminals are separated by a gap.
+GOOD,answer252,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6,A zero voltage means that the terminals are connected.
+GOOD,answer253,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6B,A non-zero voltage means that the terminals are not connected.
+GOOD,answer254,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6C,A zero voltage means that the terminals are not separated by a gap.
+GOOD,answer255,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6D,A non-zero voltage means that the terminals are separated by a gap.
+MINIMAL,answer256,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS8,A non-zero voltage means that there is a damaged bulb.
+MINIMAL,answer257,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS8B,A non-zero voltage means that there is a gap
+MINIMAL,answer258,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS9,A zero voltage means that there is no damaged bulb.
+MINIMAL,answer259,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS9B,A zero voltage means that there is no gap
+MINIMAL,answer260,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS10,A non-zero voltage means that the terminals have different electrical states.
+MINIMAL,answer261,BURNED_BULB_LOCATE_EXPLAIN_Q_ANS10B,A zero voltage means that the terminals have the same electrical state.

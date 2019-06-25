@@ -1,0 +1,8 @@
+_category,_id,_fileID,__text
+BEST,answer216,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS1,Terminal 6 and the positive terminal are connected
+GOOD,answer217,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS2,Terminal 6 and the positive terminal are not separated by the gap
+GOOD,answer218,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS2,Terminal 6 and the positive terminal are not separated by the gap
+MINIMAL,answer221,VOLTAGE_GAP_EXPLAIN_WHY6_ANS3,terminal 6 is not connected to the negative battery terminal
+GOOD,answer220,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS2a,There is no gap between terminal 6 and the positive terminal
+MINIMAL,answer222,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS4,terminal 6 is separated by a gap from the negative battery terminal
+MINIMAL,answer222.NEW,NONE,Terminal 6 and the positive battery terminal are in the same electrical state

@@ -1,0 +1,5 @@
+_category,_id,_fileID,__text
+BEST,answer191,VOLTAGE_AND_GAP_DISCUSS_Q_ANS1,the bulb is damaged
+BEST,answer192,VOLTAGE_AND_GAP_DISCUSS_Q_ANS2,the terminals are not connected
+MINIMAL,answer193,VOLTAGE_AND_GAP_DISCUSS_Q_ANS3,there is a gap
+MINIMAL,answer194,VOLTAGE_AND_GAP_DISCUSS_Q_ANS4,the terminals are separated by a gap

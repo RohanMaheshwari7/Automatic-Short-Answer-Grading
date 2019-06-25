@@ -1,0 +1,5 @@
+_id,_accuracy,__text
+EM.45b.299.1,correct,We evaporated the water.
+EM.45b.387.1,correct,We poured just the water into another thing and let the water evaporate.
+EM.45b.452.1,incorrect,We kept the salt in the vial and put the water in the Petri dish.
+EM.45b.533.1,incorrect,Get all the water out.

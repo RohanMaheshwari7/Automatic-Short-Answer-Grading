@@ -1,0 +1,6 @@
+_category,_id,_fileID,__text
+BEST,answer240,BULB_ONLY_EXPLAIN_WHY6_ANS1,Terminals 1 and 6 are separated by the gap
+GOOD,answer241,BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS2,Terminals 1 and 6 are not connected
+GOOD,answer242,BULB_ONLY_EXPLAIN_WHY6_ANS3,Terminals 1 and 6 are not connected and so in different electrical states
+BEST,answer243,BULB_ONLY_EXPLAIN_WHY6_ANS4,There is a gap between terminals 1 and 6
+MINIMAL,answer243.NEW,NONE,Terminals 1 and 6 are in different electrical states
