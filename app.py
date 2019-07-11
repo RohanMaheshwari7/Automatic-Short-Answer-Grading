@@ -26,10 +26,11 @@ def home_route():
         print(x)
         p=""
         c=''
-        if x[1]>0.55:
+        score=round(x[1]*10,1)
+        if score>5.5:
             p='correct'
             c='ag'
-        elif x[1]>0.3:
+        elif score>3.0:
             p='partially correct'
             c='ap'
         else:
@@ -37,7 +38,9 @@ def home_route():
             c='ar'
         dict['result']=p
         dict['scoreclass']=c
-        dict['score']=round(x[1]*10,1)+1
+        if score>5.5:
+            score=score+1;
+        dict['score']=score
         columns = ['prompt_overlap','av_word_len','sent_length','Cosine w2v','Cosine d2v','FSTS','Cosine Elmo','LSA 1','LSA 2','LSA 3','TTR','JC Sim','SP Sim','Cosine USE']
         # explainer = shap.TreeExplainer(fm.clf)
         # shap_values = explainer.shap_values(f)
@@ -48,4 +51,4 @@ def home_route():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)  # Generic key for dev purposes only
-    app.run(debug=True, use_reloader=True)
+    app.run(debug=True, use_reloader=True, host='0.0.0.0')
