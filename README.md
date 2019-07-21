@@ -12,9 +12,7 @@ ASAG or Automated Short Answer Grading is an application that can be used to aut
 
 ## Usage
 
-Fask server is there in app.py which is linked to the features_module file which does the feature generation and model training part.
-In the terminal, execute the following command
+- Flask server is there in app.py which is linked to the features_module file which does the feature generation and model training part.
+Run the app.py to create a local host on your machine.
+- Have added auto-sag.ipynb for easy function debugging and comparing feature importances accross instance and global level.
 
-```
-python app.py
-```
