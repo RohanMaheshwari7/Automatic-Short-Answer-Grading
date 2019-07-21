@@ -1,6 +1,6 @@
 # ASAG
 
-ASAG or Automated Short Answer Grading is an application that can be used to automatically correct and grade student answers given question and reference answer.
+ASAG or Automated Short Answer Grading is an application that can be used to automatically correct and grade student answers given question and reference answer. It will give out a score out of 10 and based on that classify the answer as correct, partially correct or incorrect.
 
 ## Installation
 
@@ -12,6 +12,7 @@ ASAG or Automated Short Answer Grading is an application that can be used to aut
 
 ## Usage
 
+Fask server is there in app.py which is linked to the features_module file which does the feature generation and model training part.
 In the terminal, execute the following command
 
 ```
